@@ -1,0 +1,102 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 4,
+    "passes": 0,
+    "pending": 0,
+    "failures": 4,
+    "start": "2023-12-08T13:56:36.498Z",
+    "end": "2023-12-08T13:56:37.340Z",
+    "duration": 842
+  },
+  "tests": [
+    {
+      "title": "no longer has DOM node 'main#main'",
+      "fullTitle": "index.html after index.js is processed no longer has DOM node 'main#main'",
+      "duration": 6,
+      "currentRetry": 0,
+      "err": {
+        "message": "Make sure you remove the <main> with id 'main': expected <main id=\"main\"></main> to not exist",
+        "showDiff": false,
+        "actual": {},
+        "stack": "AssertionError: Make sure you remove the <main> with id 'main': expected <main id=\"main\"></main> to not exist\n    at Context.<anonymous> (test/indexTest.js:6:107)\n    at process.processImmediate (node:internal/timers:478:21)"
+      }
+    },
+    {
+      "title": "has a 'newHeader' variable that points to an <h1> node",
+      "fullTitle": "index.html after index.js is processed has a 'newHeader' variable that points to an <h1> node",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: newHeader is not defined\n    at Context.<anonymous> (test/indexTest.js:11:9)\n    at process.processImmediate (node:internal/timers:478:21)",
+        "message": "newHeader is not defined"
+      }
+    },
+    {
+      "title": "the 'newHeader' variable that points to the <h1> node has an id of 'victory'",
+      "fullTitle": "index.html after index.js is processed the 'newHeader' variable that points to the <h1> node has an id of 'victory'",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: newHeader is not defined\n    at Context.<anonymous> (test/indexTest.js:18:9)\n    at process.processImmediate (node:internal/timers:478:21)",
+        "message": "newHeader is not defined"
+      }
+    },
+    {
+      "title": "the 'newHeader' variable that points to the <h1> node with an id of 'victory' has the text \"YOUR-NAME is the champion\" (with your name in place of YOUR-NAME) inside it",
+      "fullTitle": "index.html after index.js is processed the 'newHeader' variable that points to the <h1> node with an id of 'victory' has the text \"YOUR-NAME is the champion\" (with your name in place of YOUR-NAME) inside it",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: newHeader is not defined\n    at Context.<anonymous> (test/indexTest.js:24:14)\n    at process.processImmediate (node:internal/timers:478:21)",
+        "message": "newHeader is not defined"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "no longer has DOM node 'main#main'",
+      "fullTitle": "index.html after index.js is processed no longer has DOM node 'main#main'",
+      "duration": 6,
+      "currentRetry": 0,
+      "err": {
+        "message": "Make sure you remove the <main> with id 'main': expected <main id=\"main\"></main> to not exist",
+        "showDiff": false,
+        "actual": {},
+        "stack": "AssertionError: Make sure you remove the <main> with id 'main': expected <main id=\"main\"></main> to not exist\n    at Context.<anonymous> (test/indexTest.js:6:107)\n    at process.processImmediate (node:internal/timers:478:21)"
+      }
+    },
+    {
+      "title": "has a 'newHeader' variable that points to an <h1> node",
+      "fullTitle": "index.html after index.js is processed has a 'newHeader' variable that points to an <h1> node",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: newHeader is not defined\n    at Context.<anonymous> (test/indexTest.js:11:9)\n    at process.processImmediate (node:internal/timers:478:21)",
+        "message": "newHeader is not defined"
+      }
+    },
+    {
+      "title": "the 'newHeader' variable that points to the <h1> node has an id of 'victory'",
+      "fullTitle": "index.html after index.js is processed the 'newHeader' variable that points to the <h1> node has an id of 'victory'",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: newHeader is not defined\n    at Context.<anonymous> (test/indexTest.js:18:9)\n    at process.processImmediate (node:internal/timers:478:21)",
+        "message": "newHeader is not defined"
+      }
+    },
+    {
+      "title": "the 'newHeader' variable that points to the <h1> node with an id of 'victory' has the text \"YOUR-NAME is the champion\" (with your name in place of YOUR-NAME) inside it",
+      "fullTitle": "index.html after index.js is processed the 'newHeader' variable that points to the <h1> node with an id of 'victory' has the text \"YOUR-NAME is the champion\" (with your name in place of YOUR-NAME) inside it",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: newHeader is not defined\n    at Context.<anonymous> (test/indexTest.js:24:14)\n    at process.processImmediate (node:internal/timers:478:21)",
+        "message": "newHeader is not defined"
+      }
+    }
+  ],
+  "passes": []
+}
